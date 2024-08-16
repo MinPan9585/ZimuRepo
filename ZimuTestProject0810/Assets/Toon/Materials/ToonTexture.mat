@@ -136,7 +136,7 @@ Material:
     - _FlutterSensitivity: 1
     - _FlutterSource: 3
     - _FlutterSpeed: 1
-    - _FoldColor: 0
+    - _FoldColor: 1
     - _FoldDissolve: 0
     - _FoldEffects: 1
     - _FoldEmission: 0
@@ -153,7 +153,7 @@ Material:
     - _FoldRendering: 0
     - _FoldSway: 0
     - _FoldSwirling: 0
-    - _FoldTextures: 0
+    - _FoldTextures: 1
     - _FoldTriplanar: 0
     - _FoldVariation: 0
     - _FoldWave: 0
