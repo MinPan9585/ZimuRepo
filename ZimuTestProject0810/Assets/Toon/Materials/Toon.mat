@@ -32,7 +32,6 @@ Material:
   - _CLAMPADJUSTMENTS_ON
   - _CLIPTRIPLANAR_ON
   - _FOLDEFFECTS_ON
-  - _FOLDHALFTONE_ON
   - _ISLIT_ON
   - _NORMALSURFACEOUTLINE_ON
   - _USEGRADIENTSHADING_ON
@@ -144,7 +143,7 @@ Material:
     - _FoldFluttering: 0
     - _FoldGlint: 0
     - _FoldGradient: 0
-    - _FoldHalfTone: 1
+    - _FoldHalfTone: 0
     - _FoldInspector: 0
     - _FoldLighting: 0
     - _FoldLightingEffects: 0

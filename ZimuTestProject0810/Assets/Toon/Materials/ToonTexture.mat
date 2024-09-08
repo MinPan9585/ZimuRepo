@@ -31,11 +31,16 @@ Material:
   - _ADDOUTLINE_ON
   - _CLAMPADJUSTMENTS_ON
   - _CLIPTRIPLANAR_ON
+  - _FOLDCOLOR_ON
   - _FOLDEFFECTS_ON
   - _FOLDGRADIENT_ON
   - _FOLDHALFTONE_ON
+  - _FOLDOUTLINE_ON
+  - _FOLDRENDERING_ON
+  - _FOLDTEXTURES_ON
   - _ISLIT_ON
   - _NORMALSURFACEOUTLINE_ON
+  - _USEHALFTONE_ON
   - _USEOUTLINES_ON
   - _USERIMLIGHTING_ON
   - _USESHADOWS_ON
@@ -63,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 531091f9199c6014b8136b8566632268, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScreenNoiseTexture:
@@ -75,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: ffa13d69f31d0ac4583b96fd129d307b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 06e932b42551ed54f8534bcd344d9d69, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureOff:
@@ -148,9 +153,9 @@ Material:
     - _FoldLighting: 0
     - _FoldLightingEffects: 0
     - _FoldNoise: 0
-    - _FoldOutline: 0
+    - _FoldOutline: 1
     - _FoldPrecipitation: 0
-    - _FoldRendering: 0
+    - _FoldRendering: 1
     - _FoldSway: 0
     - _FoldSwirling: 0
     - _FoldTextures: 1
@@ -162,9 +167,9 @@ Material:
     - _GradientSensitivity: 0.7
     - _GradientSource: 1
     - _HalfToneOffset: 0
-    - _HalftoneMultiplier: 0.93
-    - _HalftoneOffset: 0
-    - _HalftoneScale: 4.2
+    - _HalftoneMultiplier: 1.55
+    - _HalftoneOffset: 0.024
+    - _HalftoneScale: 8.9
     - _HueShift: 0
     - _HueVariation: 0
     - _LightRamp: 1
@@ -224,7 +229,7 @@ Material:
     - _UseGlint: 0
     - _UseGradientShading: 0
     - _UseHSVVariation: 0
-    - _UseHalftone: 0
+    - _UseHalftone: 1
     - _UseModifiedNormals: 0
     - _UseOutlines: 1
     - _UseRimLighting: 1
