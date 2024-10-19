@@ -9,6 +9,11 @@ public class Player : MonoBehaviour
     public Text coinText;
     public GameObject bullet;
     public float bulletForce;
+    public GameObject gameOverUI;
+    public GameObject gameWinUI;
+    public Image takeoverImage;
+    public GameObject takeOverUI;
+    float takeoverValue = 0;
 
     private void Update()
     {
@@ -26,5 +31,30 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Lava")
+        {
+            //Debug.Log("Game Over");
+            gameOverUI.SetActive(true);
+        }
+        if (other.tag == "TakeOverPoint")
+        {
+            takeOverUI.SetActive(true);
+        }
+    }
 
+    private void OnTriggerStay(Collider other)
+    {
+        
+            takeoverValue += Time.deltaTime * 2;
+            takeoverImage.fillAmount = takeoverValue / 100;
+            //print(takeoverValue);
+            if (takeoverValue >= 100)
+            {
+                //print("Game Victory");
+                gameWinUI.SetActive(true);
+            }
+        
+    }
 }

@@ -10,6 +10,15 @@ public class Balloon : MonoBehaviour
     public float highPos;
     public Transform detectPos;
     public float returnSpeed;
+    public AudioClip balloonSound;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            SFX.instance.PlaySound(balloonSound, transform.position);
+        }
+    }
 
     private void OnTriggerStay(Collider other)
     {

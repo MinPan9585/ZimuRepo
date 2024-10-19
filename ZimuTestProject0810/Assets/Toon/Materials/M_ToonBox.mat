@@ -260,7 +260,7 @@ Material:
     - _GlintColor: {r: 1, g: 1, b: 1, a: 1}
     - _GradientChannelMask: {r: 0, g: 1, b: 0, a: 0}
     - _GradientPositionalOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _HalfToneColor: {r: 0.37207696, g: 0.15871592, b: 0.67295593, a: 0.58431375}
+    - _HalfToneColor: {r: 0.48427665, g: 0.3179017, b: 0.28173324, a: 0.58431375}
     - _LightColor: {r: 0.9622642, g: 0.56767553, b: 0.28595585, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainFoldColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
